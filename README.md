@@ -1,2 +1,7 @@
 # tallerfunciones.py
-1era taller de funciones
+1er taller de funciones
+
+Desarrolladores
+Andres Mercado Ramos 
+Gilma Monsalve
+
