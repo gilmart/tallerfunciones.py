@@ -8,3 +8,10 @@ def llenarArreglo(numeros):
 llenarArreglo(numeros)
 print(numeros)
 
+longitud = None
+def calcularPromedio(suma):
+    longitud = suma  / len(numeros)
+    return longitud
+
+
+print(f'El promedio de los valores del vector es: { calcularPromedio(45) }')
