@@ -1,7 +1,7 @@
 # tallerfunciones.py
 1er taller de funciones
 
-Desarrolladores:
+### Desarrolladores:
 <p> Andres Mercado Ramos 
 <p> Gilma Monsalve
 
