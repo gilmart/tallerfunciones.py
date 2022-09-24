@@ -1,6 +1,3 @@
-import contextlib
-
-
 numeros=[]
 
 def llenarArreglo(numeros):
@@ -10,8 +7,6 @@ def llenarArreglo(numeros):
 
 llenarArreglo(numeros)
 print(numeros)
-
-
 
 
 def sumarArreglo(numeros):

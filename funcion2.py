@@ -7,6 +7,4 @@ h=int(input(f'digite el alto '))
 
 print(calcularArea(w,h))
 
-def calcularPerimetro():
 
-    
