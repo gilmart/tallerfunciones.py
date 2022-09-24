@@ -1,3 +1,6 @@
+import contextlib
+
+
 numeros=[]
 
 def llenarArreglo(numeros):
@@ -8,10 +11,21 @@ def llenarArreglo(numeros):
 llenarArreglo(numeros)
 print(numeros)
 
-longitud = None
+
+def sumarArreglo(numeros):
+    contador=0
+    for suma in numeros:
+        #numeros[0]=numeros[0]+1
+        contador=contador+suma
+    return contador
+
+print (sumarArreglo(numeros))
+
+sumaArray = sumarArreglo(numeros)
+
 def calcularPromedio(suma):
     longitud = suma  / len(numeros)
     return longitud
 
 
-print(f'El promedio de los valores del vector es: { calcularPromedio(45) }')
+print(f'El promedio de los valores del vector es: { calcularPromedio(sumaArray) }')
