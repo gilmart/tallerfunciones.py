@@ -12,8 +12,6 @@ llenarArreglo(numeros)
 print(numeros)
 
 
-
-
 def sumarArreglo(numeros):
     contador=0
     for suma in numeros:
@@ -21,3 +19,12 @@ def sumarArreglo(numeros):
     return contador
 
 print (sumarArreglo(numeros))
+
+sumaArray = sumarArreglo(numeros)
+
+def calcularPromedio(suma):
+    longitud = suma  / len(numeros)
+    return longitud
+
+
+print(f'El promedio de los valores del vector es: { calcularPromedio(sumaArray) }')
